@@ -2,9 +2,9 @@
 
 Welcome to **Python Mini Games**!
 
-This repository contains beginner-friendly Python games that I build while practicing Python. Each game helps me improve my programming and problem-solving skills by applying different Python concepts.
+This repository contains the Python games I build while learning and practicing Python. Each game helps me improve my programming skills by applying different Python concepts in a simple and practical way.
 
-If you're learning Python, you can also try building these games on your own before checking the code.
+If you're also learning Python, you can try building these games yourself before checking my solution.
 
 ## 📅 Practice Progress
 
@@ -14,20 +14,21 @@ If you're learning Python, you can also try building these games on your own bef
 * ✅ Day 03 – Password Generator
 * ✅ Day 04 – Dice Roller
 * ✅ Day 05 – Hangman
-* ⏳ Day 06 – Coming Soon
+* ✅ Day 06 – Tic-Tac-Toe
 * ⏳ Day 07 – Coming Soon
 
-## 📚 Concepts Covered
+## 📚 Concepts Practiced
 
 * Variables
 * User Input
 * Conditional Statements
 * Loops
 * Functions
-* Random Module
-* String Module
 * Lists
+* Dictionaries
+* String Module
+* Random Module
 
-More beginner-friendly games will be added as I continue learning Python.
+More beginner-friendly Python games will be added as I continue learning and practicing Python.
 
 Happy Coding!
