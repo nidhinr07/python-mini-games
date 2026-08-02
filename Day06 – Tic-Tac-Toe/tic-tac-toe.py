@@ -1,80 +1,96 @@
-questions = [
-    {
-        "question": "What is the keyword used to define a function in Python?",
-        "options": ["A. function", "B. define", "C. def", "D. fun"],
-        "answer": "C"
-    },
-    {
-        "question": "Which loop is used when the number of iterations is known?",
-        "options": ["A. while", "B. do while", "C. for", "D. repeat"],
-        "answer": "C"
-    },
-    {
-        "question": "Which module is used to generate random numbers?",
-        "options": ["A. math", "B. random", "C. string", "D. os"],
-        "answer": "B"
-    },
-    {
-        "question": "Which data type stores True or False?",
-        "options": ["A. int", "B. str", "C. bool", "D. float"],
-        "answer": "C"
-    },
-    {
-        "question": "Which symbol is used for comments in Python?",
-        "options": ["A. //", "B. <!--", "C. #", "D. **"],
-        "answer": "C"
-    }
-]
+board = [" " for i in range(9)]
 
 
-def display_score(score, total):
-    print("\n-------------------------")
-    print("Score:", score, "/", total)
-    print("-------------------------")
+def display_board():
+    print()
+    print(f" {board[0]} | {board[1]} | {board[2]} ")
+    print("---+---+---")
+    print(f" {board[3]} | {board[4]} | {board[5]} ")
+    print("---+---+---")
+    print(f" {board[6]} | {board[7]} | {board[8]} ")
+    print()
 
 
-def play_quiz():
-    score = 0
+def check_winner(player):
+    winning_positions = [
+        [0, 1, 2],
+        [3, 4, 5],
+        [6, 7, 8],
+        [0, 3, 6],
+        [1, 4, 7],
+        [2, 5, 8],
+        [0, 4, 8],
+        [2, 4, 6]
+    ]
 
-    for question in questions:
-        print("\n" + question["question"])
+    for position in winning_positions:
+        if (
+            board[position[0]] == player and
+            board[position[1]] == player and
+            board[position[2]] == player
+        ):
+            return True
 
-        for option in question["options"]:
-            print(option)
+    return False
 
-        answer = input("Enter your answer: ").strip().upper()
 
-        if answer == question["answer"]:
-            print("Correct!")
-            score += 1
-        else:
-            print("Wrong!")
-            print("Correct Answer:", question["answer"])
+def board_full():
+    return " " not in board
 
-    return score
+
+def play_game():
+    current_player = "X"
+
+    while True:
+        display_board()
+
+        try:
+            choice = int(input(f"Player {current_player}, enter position (1-9): "))
+
+            if choice < 1 or choice > 9:
+                print("Please enter a number between 1 and 9.")
+                continue
+
+            if board[choice - 1] != " ":
+                print("This position is already taken.")
+                continue
+
+            board[choice - 1] = current_player
+
+            if check_winner(current_player):
+                display_board()
+                print(f"Player {current_player} wins!")
+                break
+
+            if board_full():
+                display_board()
+                print("It's a Draw!")
+                break
+
+            if current_player == "X":
+                current_player = "O"
+            else:
+                current_player = "X"
+
+        except ValueError:
+            print("Please enter a valid number.")
 
 
 def main():
 
+    print("========== TIC TAC TOE ==========")
+
     while True:
 
-        print("\n========== PYTHON QUIZ GAME ==========")
+        global board
+        board = [" " for i in range(9)]
 
-        score = play_quiz()
+        play_game()
 
-        display_score(score, len(questions))
-
-        if score == len(questions):
-            print("Excellent!")
-        elif score >= 3:
-            print("Good Job!")
-        else:
-            print("Keep Practicing!")
-
-        choice = input("\nDo you want to play again? (yes/no): ").lower()
+        choice = input("\nPlay Again? (yes/no): ").strip().lower()
 
         if choice != "yes":
-            print("\nThank you for playing!")
+            print("Thank you for playing!")
             break
 
 
