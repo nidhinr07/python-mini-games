@@ -16,6 +16,7 @@ If you're also learning Python, you can try building these games yourself before
 * ✅ Day 05 – Hangman
 * ✅ Day 06 – Tic-Tac-Toe
 * ✅ Day 07 – Word Scramble Game
+* ✅ Day 08 – Memory Number Game
 
 ## 📚 Concepts Practiced
 
@@ -28,6 +29,7 @@ If you're also learning Python, you can try building these games yourself before
 * Dictionaries
 * Strings
 * Random Module
+* Time Module
 
 More beginner-friendly Python games will be added as I continue learning and practicing Python.
 
