@@ -18,6 +18,7 @@ If you're also learning Python, you can try building these games yourself before
 * ✅ Day 07 – Word Scramble Game
 * ✅ Day 08 – Memory Number Game
 * ✅ Day 09 – High Low Card Game
+* ✅ Day 10 – Slot Machine Game
 
 ## 📚 Concepts Practiced
 
