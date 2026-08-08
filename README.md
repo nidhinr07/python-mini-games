@@ -20,6 +20,7 @@ If you're also learning Python, you can try building these games yourself before
 * ✅ Day 09 – High Low Card Game
 * ✅ Day 10 – Slot Machine Game
 * ✅ Day 11 – Bulls and Cows Game
+* ✅ Day 12 – Blackjack Game
 
 ## 📚 Concepts Practiced
 
