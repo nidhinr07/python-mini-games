@@ -21,6 +21,7 @@ If you're also learning Python, you can try building these games yourself before
 * ✅ Day 10 – Slot Machine Game
 * ✅ Day 11 – Bulls and Cows Game
 * ✅ Day 12 – Blackjack Game
+* ✅ Day 13 – Treasure Hunt Game
 
 ## 📚 Concepts Practiced
 
