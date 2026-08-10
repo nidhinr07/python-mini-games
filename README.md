@@ -1,4 +1,4 @@
-# 🎮 Python Mini Games
+# Python Mini Games
 
 Welcome to **Python Mini Games**!
 
@@ -22,6 +22,7 @@ If you're also learning Python, you can try building these games yourself before
 * ✅ Day 11 – Bulls and Cows Game
 * ✅ Day 12 – Blackjack Game
 * ✅ Day 13 – Treasure Hunt Game
+* ✅ Day 14 – Number Memory Challenge
 
 ## 📚 Concepts Practiced
 
