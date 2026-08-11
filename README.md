@@ -23,6 +23,7 @@ If you're also learning Python, you can try building these games yourself before
 * ✅ Day 12 – Blackjack Game
 * ✅ Day 13 – Treasure Hunt Game
 * ✅ Day 14 – Number Memory Challenge
+* ✅ Day 15 – Coin Toss Game
 
 ## 📚 Concepts Practiced
 
