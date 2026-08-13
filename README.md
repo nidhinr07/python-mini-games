@@ -25,6 +25,7 @@ If you're also learning Python, you can try building these games yourself before
 - Day 14 – Number Memory Challenge
 - Day 15 – Coin Toss Game
 - Day 16 – Monster Battle Game
+- Day 17 – Pet Simulator Game
 
 ## Concepts Practiced
 
