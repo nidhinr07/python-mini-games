@@ -26,6 +26,7 @@ If you're also learning Python, you can try building these games yourself before
 - Day 15 – Coin Toss Game
 - Day 16 – Monster Battle Game
 - Day 17 – Pet Simulator Game
+- Day 18 – Animal Race Game
 
 ## Concepts Practiced
 
