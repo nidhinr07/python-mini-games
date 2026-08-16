@@ -28,6 +28,7 @@ If you're also learning Python, you can try building these games yourself before
 - Day 17 – Pet Simulator Game
 - Day 18 – Animal Race Game
 - Day 19 – Fishing Game
+- Day 20 – Dungeon Escape Game
 
 ## Concepts Practiced
 
