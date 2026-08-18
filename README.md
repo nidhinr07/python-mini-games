@@ -30,6 +30,7 @@ If you're also learning Python, you can try building these games yourself before
 - Day 19 – Fishing Game
 - Day 20 – Dungeon Escape Game
 - Day 21 – Quiz Battle Game
+- Day 22 – Word Guessing Game
 
 ## Concepts Practiced
 
