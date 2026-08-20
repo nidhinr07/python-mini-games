@@ -32,6 +32,7 @@ If you're also learning Python, you can try building these games yourself before
 - Day 21 – Quiz Battle Game
 - Day 22 – Word Guessing Game
 - Day 23 – Treasure Chest Game
+- Day 24 – Racing Car Game
 
 ## Concepts Practiced
 
