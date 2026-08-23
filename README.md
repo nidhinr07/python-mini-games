@@ -34,6 +34,7 @@ If you're also learning Python, you can try building these games yourself before
 - Day 23 – Treasure Chest Game
 - Day 24 – Racing Car Game
 - Day 25 – Dice Battle Game
+- Day 26 – Zombie Survival Game
 
 ## Concepts Practiced
 
