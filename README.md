@@ -37,6 +37,7 @@ If you're also learning Python, you can try building these games yourself before
 - Day 26 – Zombie Survival Game
 - Day 27 – Bomb Finder Game
 - Day 28 – Space Battle Game
+- Day 29 – Fishing Competition Game
 
 ## Concepts Practiced
 
