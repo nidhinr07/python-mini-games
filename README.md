@@ -38,6 +38,7 @@ If you're also learning Python, you can try building these games yourself before
 - Day 27 – Bomb Finder Game
 - Day 28 – Space Battle Game
 - Day 29 – Fishing Competition Game
+- Day 30 – Pirate Treasure Battle Game
 
 ## Concepts Practiced
 
